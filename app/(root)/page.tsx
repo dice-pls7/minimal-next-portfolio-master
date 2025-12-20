@@ -157,17 +157,17 @@ export default function IndexPage() {
       {/* Contributions Marquee */}
       <section className="py-16 border-y border-border">
         <Marquee speed={30} direction="right">
-          {featuredContributions.map((contribution) => (
+          {featuredContributions.map((contribution, index) => (
             <a
-              key={contribution.name}
+              key={index}
               href={contribution.link}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-4 px-8 py-4 mx-4 bg-muted rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
             >
-              <span className="text-lg font-medium">{contribution.name}</span>
+              <span className="text-lg font-medium">{index}</span>
               <span className="text-sm text-muted-foreground">
-                ★ {contribution.stars}
+                ★
               </span>
             </a>
           ))}
