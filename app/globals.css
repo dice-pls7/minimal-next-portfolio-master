@@ -10,7 +10,7 @@ html {
 /* Hide default cursor on desktop for custom cursor */
 @media (min-width: 768px) {
   * {
-    cursor: none !important;
+    /* cursor: none !important; */
   }
 }
 

@@ -10,7 +10,7 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
   return (
     <div className="flex min-h-screen flex-col">
       {/* Custom Cursor */}
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       
       {/* Awwwards Navigation */}
       <AwwwardsNav items={routesConfig.mainNav} />
