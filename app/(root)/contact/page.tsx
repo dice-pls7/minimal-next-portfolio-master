@@ -1,8 +1,7 @@
 import { Metadata } from "next";
 
-import PageContainer from "@/components/common/page-container";
-import GithubRedirectCard from "@/components/contact/github-redirect-card";
-import { ContactForm } from "@/components/forms/contact-form";
+import { AwwwardsContactPage } from "@/components/awwwards";
+import { ClientPageWrapper } from "@/components/common/client-page-wrapper";
 import { pagesConfig } from "@/config/pages";
 
 export const metadata: Metadata = {
@@ -12,18 +11,8 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <PageContainer
-      title={pagesConfig.contact.title}
-      description={pagesConfig.contact.description}
-    >
-      <div className="flex flex-col lg:flex-row">
-        <div className="flex-1">
-          <ContactForm />
-        </div>
-        <div className="flex-1 flex justify-center ">
-          <GithubRedirectCard />
-        </div>
-      </div>
-    </PageContainer>
+    <ClientPageWrapper>
+      <AwwwardsContactPage />
+    </ClientPageWrapper>
   );
 }
