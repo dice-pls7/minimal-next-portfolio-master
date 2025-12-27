@@ -1,4 +1,5 @@
 import { Icons } from "@/components/common/icons";
+import { Mail } from "lucide-react";
 
 interface SocialInterface {
   name: string;
@@ -10,26 +11,20 @@ interface SocialInterface {
 export const SocialLinks: SocialInterface[] = [
   {
     name: "Github",
-    username: "@namanbarkiya",
+    username: "@dice-pls7",
     icon: Icons.gitHub,
-    link: "https://github.com/namanbarkiya",
+    link: "https://github.com/dice-pls7",
   },
   {
     name: "LinkedIn",
     username: "Vincent Bouwens",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/namanbarkiya",
+    link: "https://www.linkedin.com/in/vincent-bouwens-1bb35325b/",
   },
   {
-    name: "Twitter",
-    username: "@namanbarkiya",
-    icon: Icons.twitter,
-    link: "https://twitter.com/namanbarkiya",
-  },
-  {
-    name: "Gmail",
-    username: "naman.barkiya02",
-    icon: Icons.gmail,
-    link: "mailto:naman.barkiya02@gmail.com",
+    name: "Email",
+    username: "Vincentbouwens",
+    icon: Mail,
+    link: "mailto:Vincentbouwens@live.com",
   },
 ];

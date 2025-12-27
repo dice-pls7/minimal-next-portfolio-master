@@ -18,7 +18,7 @@ interface ProjectPageProps {
   }>;
 }
 
-const githubUsername = "namanbarkiya";
+const githubUsername = "dice-pls7";
 
 export default async function Project({ params }: ProjectPageProps) {
   const { projectId } = await params;

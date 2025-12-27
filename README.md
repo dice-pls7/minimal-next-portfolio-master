@@ -19,9 +19,9 @@ A modern, responsive, and SEO-optimized **Next.js 16 portfolio template** design
 
 ## 🚀 Demo
 
-View the live demo at [https://nbarkiya.xyz/](https://nbarkiya.xyz)
+View the live demo at [https://vincentbouwens.nl/](https://vincentbouwens.nl)
 
-https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
+https://github.com/dice-pls7/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
 
 ## 🛠️ Tech Stack
 
@@ -41,7 +41,7 @@ To get started with your own portfolio website:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/namanbarkiya/minimal-next-portfolio.git my-portfolio
+   git clone https://github.com/dice-pls7/minimal-next-portfolio.git my-portfolio
    cd my-portfolio
    ```
 
@@ -108,8 +108,8 @@ Built-in SEO features with proper meta tags, structured data, and semantic HTML.
 
 ## 📱 Performance and Responsiveness
 
-![best-portfolio-website-score](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
-![100-score-vercel](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
+![best-portfolio-website-score](https://github.com/dice-pls7/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
+![100-score-vercel](https://github.com/dice-pls7/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
 
 This template is optimized for:
 
@@ -125,7 +125,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgements
 
 - Design inspired by modern portfolio best practices
-- Built by [Vincent Bouwens](https://github.com/namanbarkiya)
+- Built by [Vincent Bouwens](https://github.com/dice-pls7)
 - Icons from [Lucide](https://lucide.dev/)
 
 ## 💻 Deploy on Vercel
@@ -136,8 +136,8 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=namanbarkiya/minimal-next-portfolio&type=Date)](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=dice-pls7/minimal-next-portfolio&type=Date)](https://star-history.com/#dice-pls7/minimal-next-portfolio&Date)
 
 ---
 
-**Built with ❤️ by [Vincent Bouwens](https://github.com/namanbarkiya)**
+**Built with ❤️ by [Vincent Bouwens](https://github.com/dice-pls7)**

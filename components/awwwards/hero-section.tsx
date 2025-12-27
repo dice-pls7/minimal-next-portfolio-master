@@ -202,7 +202,7 @@ export function HeroSection({
         >
           <MagneticButton strength={0.3}>
             <Link
-              href="https://github.com/namanbarkiya"
+              href="https://github.com/dice-pls7"
               target="_blank"
               className={cn(
                 buttonVariants({ size: "lg" }),
