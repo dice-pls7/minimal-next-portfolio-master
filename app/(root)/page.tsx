@@ -20,6 +20,7 @@ import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,
