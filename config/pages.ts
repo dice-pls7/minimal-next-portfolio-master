@@ -31,11 +31,11 @@ export const pagesConfig: PagesConfig = {
     },
   },
   projects: {
-    title: "Projects",
-    description: "Showcasing impactful projects and technical achievements.",
+    title: "Projecten",
+    description: "Gemaakte projecten en technische prestaties.",
     metadata: {
-      title: "Projects",
-      description: "Vincent Bouwens's projects in building web applications.",
+      title: "Projecten",
+      description: "Vincent Bouwens's projecten in het bouwen van webapplicaties.",
     },
   },
   contact: {
@@ -44,15 +44,6 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Contact",
       description: "Contact Vincent Bouwens.",
-    },
-  },
-  contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
-    metadata: {
-      title: "Contributions",
-      description:
-        "Vincent Bouwens's open-source contributions and community involvement.",
     },
   },
   resume: {

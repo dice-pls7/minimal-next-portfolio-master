@@ -32,7 +32,7 @@ export default function GithubRedirectCard() {
         </p>
         <Github className="w-10 h-10 text-muted-foreground mb-5" />
       </CardContent>
-      <CardFooter className="px-8 pb-8 pt-0">
+      {/* <CardFooter className="px-8 pb-8 pt-0">
         <Link
           href={"https://github.com/namanbarkiya/minimal-next-portfolio"}
           target="_blank"
@@ -44,7 +44,7 @@ export default function GithubRedirectCard() {
           <span className="mr-2">Source Code</span>
           <ExternalLink className="w-5 h-5" />
         </Link>
-      </CardFooter>
+      </CardFooter> */}
       <div
         className={`h-1 bg-gradient-to-r from-red-500 to-red-500 transition-all duration-300 ease-out ${
           isHovered ? "opacity-100" : "opacity-0"

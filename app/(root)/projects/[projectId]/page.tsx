@@ -18,7 +18,7 @@ interface ProjectPageProps {
   }>;
 }
 
-const githubUsername = "namanbarkiya";
+const githubUsername = "dice-pls7";
 
 export default async function Project({ params }: ProjectPageProps) {
   const { projectId } = await params;
@@ -73,7 +73,7 @@ export default async function Project({ params }: ProjectPageProps) {
           >
             <Image
               src={profileImg}
-              alt={"naman"}
+              alt={"vincent bouwens"}
               width={42}
               height={42}
               className="rounded-full bg-background"
@@ -92,8 +92,9 @@ export default async function Project({ params }: ProjectPageProps) {
       <Image
         src={project.companyLogoImg}
         alt={project.companyName}
-        width={720}
-        height={405}
+        width={1200}
+        height={675}
+        quality={95}
         className="my-8 rounded-md border bg-muted transition-colors"
         priority
       />
@@ -118,7 +119,7 @@ export default async function Project({ params }: ProjectPageProps) {
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
-          Page Info
+          Pagina Info
         </h2>
         {project.pagesInfoArr.map((page, ind) => (
           <div key={ind}>
@@ -132,8 +133,9 @@ export default async function Project({ params }: ProjectPageProps) {
                   src={img}
                   key={ind}
                   alt={img}
-                  width={720}
-                  height={405}
+                  width={1200}
+                  height={675}
+                  quality={95}
                   className="my-4 rounded-md border bg-muted transition-colors"
                   priority
                 />

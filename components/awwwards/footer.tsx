@@ -17,7 +17,7 @@ export function AwwwardsFooter() {
 
   const socialLinks = [
     { name: "GitHub", href: siteConfig.links.github, icon: Icons.gitHub },
-    { name: "Twitter", href: siteConfig.links.twitter, icon: Icons.twitter },
+    { name: "LinkedIn", href: siteConfig.links.linkedin, icon: Icons.linkedin },
   ];
 
   return (

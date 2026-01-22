@@ -13,7 +13,6 @@ import {
   ScrollProgress,
   Parallax,
 } from "@/components/awwwards";
-import { featuredContributions } from "@/config/contributions";
 import { experiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
 import { featuredProjects } from "@/config/projects";
@@ -37,7 +36,7 @@ export default function IndexPage() {
     url: siteConfig.url,
     image: siteConfig.ogImage,
     jobTitle: "Full Stack Developer",
-    sameAs: [siteConfig.links.github, siteConfig.links.twitter],
+    sameAs: [siteConfig.links.github],
   };
 
   // Structured data for website as a software application (template)
@@ -154,25 +153,7 @@ export default function IndexPage() {
         <AwwwardsTimeline experiences={experiences} />
       </section>
 
-      {/* Contributions Marquee */}
-      <section className="py-16 border-y border-border">
-        <Marquee speed={30} direction="right">
-          {featuredContributions.map((contribution, index) => (
-            <a
-              key={index}
-              href={contribution.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-4 px-8 py-4 mx-4 bg-muted rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
-            >
-              <span className="text-lg font-medium">{index}</span>
-              <span className="text-sm text-muted-foreground">
-                ★
-              </span>
-            </a>
-          ))}
-        </Marquee>
-      </section>
+      
     </ClientPageWrapper>
   );
 }

@@ -203,14 +203,7 @@ export function AwwwardsNav({ items }: AwwwardsNavProps) {
                 >
                   <Icons.gitHub className="w-6 h-6" />
                 </a>
-                <a
-                  href={siteConfig.links.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  <Icons.twitter className="w-6 h-6" />
-                </a>
+              
               </motion.div>
             </div>
           </motion.div>

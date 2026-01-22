@@ -1,19 +1,20 @@
 export const siteConfig = {
   name: "Vincent Bouwens | Developer Portfolio",
   authorName: "Vincent Bouwens",
-  username: "namanbarkiya",
+  username: "dice-pls7",
   description:
     "Vincent Bouwens's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://nbarkiya.xyz",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    
+    linkedin: "https://www.linkedin.com/in/vincent-bouwens-1bb35325b/",
+    github: "https://github.com/dice-pls7",
   },
   ogImage: "https://nbarkiya.xyz/profile-img.jpg",
-  iconIco:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
-  logoIcon:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
+  // iconIco:
+  //   "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
+  // logoIcon:
+  //   "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
     "Vincent Bouwens",
     "Full Stack Developer",

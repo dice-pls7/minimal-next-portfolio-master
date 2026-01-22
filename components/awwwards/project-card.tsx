@@ -164,7 +164,7 @@ export function AwwwardsProjectCard({ project, index }: AwwwardsProjectCardProps
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.3 }}
             >
-              <span>View Project</span>
+              <span>Bekijk project</span>
               <motion.div
                 animate={{ x: [0, 5, 0] }}
                 transition={{ duration: 1.5, repeat: Infinity }}
