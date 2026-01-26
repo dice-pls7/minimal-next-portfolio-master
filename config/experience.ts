@@ -16,34 +16,12 @@ export interface ExperienceInterface {
 
 export const experiences: ExperienceInterface[] = [
   {
-    id: "stagair-it",
-    position: "Software Engineering Intern",
-    company: "Stagair IT (Technius Zwolle BV)",
-    location: "Staphorst, Overijssel, Netherlands",
-    startDate: new Date("2024-04-01"),
-    endDate: new Date("2024-05-14"),
-    description: [
-      "Developed web applications aimed at improving and automating business processes.",
-      "Worked with database design and optimization using SQL.",
-      "Contributed to full-stack development with JavaScript and modern web technologies.",
-    ],
-    achievements: [
-      "Developed a web application focused on improving and automating critical business processes.",
-      "Implemented efficient database solutions using SQL for improved data management.",
-      "Collaborated with team members to deliver high-quality software solutions.",
-      "Gained hands-on experience with modern web development practices and technologies.",
-    ],
-    skills: ["Javascript", "SQL", "React", "HTML 5", "CSS 3"],
-    companyUrl: "https://www.technius.nl",
-    logo: "/logo.png",
-  },
-  {
     id: "chipsoft",
     position: "Software Engineering Intern",
     company: "Chipsoft",
     location: "Heerenveen, Netherlands",
-    startDate: new Date("2023-08-01"),
-    endDate: new Date("2024-02-01"),
+    startDate: new Date("2025-09-01"),
+    endDate: new Date("2026-01-23"),
     description: [
       "Developed a cleaning module for hospital management systems using HiX EPD software.",
       "Implemented automated bed cleaning triggers after patient discharge to improve nurse workflows.",
@@ -65,8 +43,8 @@ export const experiences: ExperienceInterface[] = [
     position: "Software Engineering Intern",
     company: "Ultraware",
     location: "Assen, Netherlands",
-    startDate: new Date("2023-01-01"),
-    endDate: new Date("2023-07-01"),
+    startDate: new Date("2024-09-01"),
+    endDate: new Date("2025-01-23"),
     description: [
       "Worked on software engineering projects and full-stack development.",
       "Contributed to various application development tasks and improvements.",
@@ -88,13 +66,35 @@ export const experiences: ExperienceInterface[] = [
     logo: "/experience/builtdesign-logo.png",
 
   },
+   {
+    id: "stagair-it",
+    position: "Software Engineering Intern",
+    company: "Stagair IT (Technius Zwolle BV)",
+    location: "Staphorst, Overijssel, Netherlands",
+    startDate: new Date("2024-04-01"),
+    endDate: new Date("2024-07-01"),
+    description: [
+      "Developed web applications aimed at improving and automating business processes.",
+      "Worked with database design and optimization using SQL.",
+      "Contributed to full-stack development with JavaScript and modern web technologies.",
+    ],
+    achievements: [
+      "Developed a web application focused on improving and automating critical business processes.",
+      "Implemented efficient database solutions using SQL for improved data management.",
+      "Collaborated with team members to deliver high-quality software solutions.",
+      "Gained hands-on experience with modern web development practices and technologies.",
+    ],
+    skills: ["Javascript", "SQL", "React", "HTML 5", "CSS 3"],
+    companyUrl: "https://www.technius.nl",
+    logo: "/experience/technius-logo.png",
+  },
   {
       id: "windesheim",
       position: "Teaching Assistant",
       company: "Windesheim University of Applied Sciences",
       location: "Zwolle, Netherlands",
       startDate: new Date("2023-08-01"),  
-      endDate: new Date("2023-10-15"),
+      endDate: new Date("2025-10-15"),
       description: [
         "Provided instructional support for HBO-level computer science students.",
         "Assisted with SQL and PHP programming coursework.",  
