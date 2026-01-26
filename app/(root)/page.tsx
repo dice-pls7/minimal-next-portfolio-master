@@ -18,6 +18,7 @@ import { pagesConfig } from "@/config/pages";
 import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,

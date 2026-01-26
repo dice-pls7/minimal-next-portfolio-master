@@ -1,4 +1,5 @@
 import { Icons } from "@/components/common/icons";
+import { Mail } from "lucide-react";
 
 interface SocialInterface {
   name: string;

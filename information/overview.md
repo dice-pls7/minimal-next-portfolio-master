@@ -1,6 +1,6 @@
 # Portfolio Website Navigation Overview
 
-This document outlines the navigation structure of the portfolio website [https://nbarkiya.xyz/](https://nbarkiya.xyz/), detailing each page and its primary sections to facilitate understanding and interaction.
+This document outlines the navigation structure of the portfolio website [https://vincentbouwens.nl/](https://vincentbouwens.nl/), detailing each page and its primary sections to facilitate understanding and interaction.
 
 ---
 
@@ -8,12 +8,12 @@ This document outlines the navigation structure of the portfolio website [https:
 
 The website's main navigation menu is accessible from all pages and includes the following links:
 
-1. **Home**: [https://nbarkiya.xyz/](https://nbarkiya.xyz/)
-2. **Skills**: [https://nbarkiya.xyz/skills](https://nbarkiya.xyz/skills)
-3. **Projects**: [https://nbarkiya.xyz/projects](https://nbarkiya.xyz/projects)
-4. **Experience**: [https://nbarkiya.xyz/experience](https://nbarkiya.xyz/experience)
-5. **Contributions**: [https://nbarkiya.xyz/contributions](https://nbarkiya.xyz/contributions)
-6. **Contact**: [https://nbarkiya.xyz/contact](https://nbarkiya.xyz/contact)
+1. **Home**: [https://vincentbouwens.nl/](https://vincentbouwens.nl/)
+2. **Skills**: [https://vincentbouwens.nl/skills](https://vincentbouwens.nl/skills)
+3. **Projects**: [https://vincentbouwens.nl/projects](https://vincentbouwens.nl/projects)
+4. **Experience**: [https://vincentbouwens.nl/experience](https://vincentbouwens.nl/experience)
+5. **Contributions**: [https://vincentbouwens.nl/contributions](https://vincentbouwens.nl/contributions)
+6. **Contact**: [https://vincentbouwens.nl/contact](https://vincentbouwens.nl/contact)
 
 ---
 
@@ -21,7 +21,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 1. Home
 
-**URL:** [https://nbarkiya.xyz/](https://nbarkiya.xyz/)
+**URL:** [https://vincentbouwens.nl/](https://vincentbouwens.nl/)
 
 **Sections:**
 
