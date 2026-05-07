@@ -19,7 +19,7 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
       <main className="flex-1 pt-20">{children}</main>
       
       {/* Awwwards Footer */}
-      <AwwwardsFooter />
+      {/* <AwwwardsFooter /> */}
     </div>
   );
 }
