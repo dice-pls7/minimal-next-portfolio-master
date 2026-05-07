@@ -13,7 +13,7 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
       {/* <CustomCursor /> */}
       
       {/* Awwwards Navigation */}
-      <AwwwardsNav items={routesConfig.mainNav} />
+      {/* <AwwwardsNav items={routesConfig.mainNav} /> */}
       
       {/* Main Content with top padding for fixed nav */}
       <main className="flex-1 pt-20">{children}</main>
