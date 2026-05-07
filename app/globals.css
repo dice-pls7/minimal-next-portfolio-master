@@ -768,4 +768,17 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
+} 
+
+@media print
+{    
+  #cv-screen{
+    margin-block-start: -80px !important;
+    
+  } 
+    header
+    {
+        display: none !important;
+    }
 }
