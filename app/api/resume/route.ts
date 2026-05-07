@@ -14,7 +14,7 @@ import {
   ShadingType,
   UnderlineType,
   TabStopType,
-  TabStopLeader,
+ 
 } from "docx";
 
 const NAVY = "1A1A2E";
@@ -45,7 +45,7 @@ function sectionHeading(text: string): Paragraph {
 
 function roleHeader(title: string, period: string): Paragraph {
   return new Paragraph({
-    tabStops: [{ type: TabStopType.RIGHT, position: 9200, leader: TabStopLeader.NONE }],
+    tabStops: [{ type: TabStopType.RIGHT, position: 9200, leader: "dot" }],
     spacing: { before: 100, after: 20 },
     children: [
       new TextRun({ text: title, bold: true, size: 19, color: BLACK, font: "Calibri" }),
@@ -194,8 +194,8 @@ export async function GET() {
               bottom: { style: BorderStyle.NONE },
               left: { style: BorderStyle.NONE },
               right: { style: BorderStyle.NONE },
-              insideH: { style: BorderStyle.NONE },
-              insideV: { style: BorderStyle.NONE },
+            //   insideH: { style: BorderStyle.NONE },
+            //   insideV: { style: BorderStyle.NONE },
             },
             rows: [
               new TableRow({
@@ -317,13 +317,4 @@ export async function GET() {
     ],
   });
 
-  const buffer = await Packer.toBuffer(doc);
-
-  return new NextResponse(buffer, {
-    status: 200,
-    headers: {
-      "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "Content-Disposition": 'attachment; filename="Vincent_Bouwens_CV.docx"',
-    },
-  });
 }
