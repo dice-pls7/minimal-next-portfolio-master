@@ -35,6 +35,7 @@ import {
 import { AiFillStar } from "react-icons/ai";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
 import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
+import { FaAmazon, FaCss3Alt, FaLinkedin } from "react-icons/fa";
 import {
   HiBriefcase,
   HiOutlineExternalLink,
@@ -42,10 +43,8 @@ import {
 } from "react-icons/hi";
 import { IoIosGitBranch } from "react-icons/io";
 import {
-  SiAmazonwebservices,
   SiAngular,
   SiBootstrap,
-  SiCss3,
   SiExpress,
   SiGmail,
   SiGraphql,
@@ -101,10 +100,10 @@ export const Icons = {
   link: HiOutlineLink,
   externalLink: HiOutlineExternalLink,
   star: AiFillStar,
-  amazonaws: SiAmazonwebservices,
+  amazonaws: FaAmazon,
   angular: SiAngular,
   bootstrap: SiBootstrap,
-  css3: SiCss3,
+  css3: FaCss3Alt,
   express: SiExpress,
   graphql: SiGraphql,
   html5: SiHtml5,
@@ -123,7 +122,7 @@ export const Icons = {
   typescript: SiTypescript,
   gmail: SiGmail,
   twitter: SiX,
-  linkedin: SiLinkedin,
+  linkedin: FaLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
   gitHub: ({ ...props }: LucideProps) => (
