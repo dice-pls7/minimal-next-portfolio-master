@@ -17,7 +17,7 @@ const resumeData = {
   // Waarom gewijzigd: "Junior Software Engineer" sluit traineeships direct uit
   // voor recruiters die niet zoeken op development. "IT Professional in
   // Ontwikkeling" is breed en positief geladen.
-  title: "Junior IT Professional | Software • Analyse • Digitale Oplossingen",
+  title: "Junior IT Professional",
 
   // Waarom: subtitle toont de doelgroep expliciet zodat recruiters en ATS
   // de kandidaat direct kunnen matchen op traineeship-zoekwoorden.
