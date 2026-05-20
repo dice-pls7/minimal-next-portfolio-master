@@ -17,18 +17,18 @@ const resumeData = {
   // Waarom gewijzigd: "Junior Software Engineer" sluit traineeships direct uit
   // voor recruiters die niet zoeken op development. "IT Professional in
   // Ontwikkeling" is breed en positief geladen.
-  title: "IT Professional in Ontwikkeling",
+  title: "Junior IT Professional | Software • Analyse • Digitale Oplossingen",
 
   // Waarom: subtitle toont de doelgroep expliciet zodat recruiters en ATS
   // de kandidaat direct kunnen matchen op traineeship-zoekwoorden.
-  subtitle: "Traineeship · Young Professional · IT-Consultancy",
+  subtitle: "Software • Analyse • Digitale Oplossingen • IT-Consultancy",
 
   // Waarom: "Landelijk inzetbaar" is een hard criterium bij veel traineeships —
   // vroeg vermelden verwijdert twijfel bij recruiters.
   location: "Leeuwarden · Landelijk inzetbaar / Bereid te verhuizen",
 
   email: "vincentbouwens@live.com",
-  phone: "+31 6 20 14 34 32",
+  phone: "+31 6 2014 3432",
   linkedin: "linkedin.com/in/vincent-bouwens-1bb35325b",
   linkedinHref: "https://www.linkedin.com/in/vincent-bouwens-1bb35325b/",
   github: "github.com/dice-pls7",
@@ -38,7 +38,7 @@ const resumeData = {
   // werk zoekt. Deze versie benadrukt leervermogen, brede interesse, stakeholder-
   // communicatie en groeipotentieel — kernwoorden bij traineeships.
   profile:
-    "HBO-ICT afgestudeerde met een sterke technische basis én een brede interesse in IT-, proces- en organisatievraagstukken. Ik leer snel, neem verantwoordelijkheid en presteer goed in dynamische omgevingen. Tijdens stages en mijn huidige functie als IT Consultant heb ik aangetoond complexe problemen zelfstandig te analyseren, effectief te communiceren met uiteenlopende stakeholders en concrete waarde te leveren aan organisaties. Op zoek naar een traineeship of Young Professional-programma waar ik me breed kan ontwikkelen — technisch én organisatorisch. Landelijk inzetbaar en bereid te verhuizen.",
+    "HBO-ICT afgestudeerde met een sterke technische basis én een brede interesse in IT-, proces- en organisatievraagstukken. Ik leer snel, neem verantwoordelijkheid en presteer goed in dynamische omgevingen. Tijdens stages en mijn huidige functie als IT Consultant heb ik aangetoond complexe problemen zelfstandig te analyseren, effectief te communiceren met uiteenlopende stakeholders en concrete waarde te leveren aan organisaties. Op zoek naar een traineeship of Young Professional-programma waar ik me breed kan ontwikkelen, technisch én organisatorisch. Landelijk inzetbaar en bereid te verhuizen.",
 
   experience: [
     {
@@ -50,10 +50,10 @@ const resumeData = {
       location: "Groningen, Nederland",
       period: "feb 2026 – heden",
       bullets: [
-        "Lever end-to-end IT-oplossingen op voor klanten — van requirements-analyse en ontwerp tot implementatie en deployment",
+        "Lever end-to-end IT-oplossingen op voor klanten van requirements-analyse en ontwerp tot implementatie en deployment",
         "Schakel actief tussen technische uitvoering en klantgerichte communicatie over requirements, planning en oplossingsrichting",
         "Draag bij aan strategische beslissingen rondom architectuur, schaalbaarheid en softwarekwaliteit",
-        "Toon eigenaarschap en lever resultaten in een professionele consultancy-omgeving, zelfstandig én in teamverband",
+        "Toon eigenaarschap en lever resultaten in een professionele consultancy omgeving, zelfstandig én in teamverband",
       ],
     },
     {
@@ -68,7 +68,7 @@ const resumeData = {
         "Leverde een productieklare oplossing op die handmatige ziekenhuisprocessen volledig verving door digitale automatisering",
         "Voerde zelfstandig stakeholdergesprekken met verpleegkundigen en afdelingshoofden om requirements scherp te stellen",
         "Vertaalde complexe organisatorische knelpunten naar een concrete, technische oplossing met meetbare procesimpact",
-        "Presenteerde het eindresultaat aan management — oplossing direct overgenomen in productie",
+        "Presenteerde het eindresultaat aan management; oplossing direct overgenomen in productie",
       ],
     },
     {
