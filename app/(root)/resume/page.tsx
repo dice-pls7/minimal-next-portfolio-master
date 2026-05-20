@@ -435,6 +435,12 @@ export default function ResumePage() {
               </svg>
               Download .docx
             </a>
+            <a
+              href="/resume/traineeship"
+              className="group flex items-center gap-3 border border-white/10 hover:border-white/30 text-white/20 hover:text-white/50 font-mono text-xs tracking-widest uppercase px-8 py-4 transition-all duration-300"
+            >
+              Traineeship variant →
+            </a>
           </motion.div>
         </div>
       </div>
