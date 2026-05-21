@@ -243,9 +243,7 @@ export default function TraineeshipResumePage() {
               <span className="font-mono text-xs tracking-[0.3em] text-[#c9ff6b] uppercase">
                 Curriculum Vitae — {new Date().getFullYear()}
               </span>
-              <span className="border border-[#c9ff6b]/30 text-[#c9ff6b]/60 font-mono text-[10px] tracking-widest uppercase px-2 py-0.5">
-                Traineeship variant
-              </span>
+              
             </motion.div>
 
             {/* name */}
