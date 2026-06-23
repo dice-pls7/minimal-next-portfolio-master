@@ -7,7 +7,7 @@ const resumeData = {
   name: "Vincent Bouwens",
   title: "Junior Software Engineer",
   subtitle: ".NET · React · Next.js",
-  location: "Leeuwarden, Nederland",
+  location: "Nederland",
   email: "vincentbouwens@live.com",
   phone: "+31 6 20 14 34 32",
   linkedin: "linkedin.com/in/vincent-bouwens-1bb35325b",
